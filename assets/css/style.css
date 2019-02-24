@@ -251,6 +251,11 @@ img {
 
     footer {
         position: relative;
+        padding: 5px;
+    }
+
+    .container {
+        margin-top: 170px;
     }
 }
 
