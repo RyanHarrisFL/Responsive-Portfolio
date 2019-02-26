@@ -203,6 +203,14 @@ img {
 
 /* Media query for 640px */
 
+
+@media screen and (max-width: 768px) {
+    .nav-container {
+        width: auto;
+    }
+}
+
+
 @media screen and (max-width: 640px) {
     .portfolio-container {
         margin-right: auto;
@@ -231,14 +239,17 @@ img {
 
     li {
         float: none;
+        border-right: 1px solid rgb(145, 144, 144);
+        border-left: none;
+    }
+
+    li:last-child {
+        border-right: none;
+
     }
 
     li a {
         text-align: center;
-    }
-
-    li:last-child {
-        border-left: none;
     }
 
     ul {
@@ -256,11 +267,11 @@ img {
 
     .container {
         margin-top: 170px;
+        margin-right: 10;
+        margin-left: 10;
+        margin-bottom: 250px;
+        height: auto;
+        width: 300px;
     }
 }
 
-@media screen and (min-width: 768px) {
-    header {
-        
-    }
-}
