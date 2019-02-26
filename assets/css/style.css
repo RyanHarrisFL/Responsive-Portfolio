@@ -199,9 +199,23 @@ img {
     float: left;
 }
 
-/* MEDIA QUERIES START HERE */
+/* CSS animation using transitions for nav buttons */
 
-/* Media query for 640px */
+
+.box {
+    background-color: white;
+    transition-duration: 500ms;
+    transition-property: background;
+}
+
+.box:hover {
+    background-color: #4aaaa5;
+    color: white;
+}
+
+
+
+/* MEDIA QUERIES START HERE */
 
 
 @media screen and (max-width: 768px) {
